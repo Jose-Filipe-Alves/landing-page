@@ -13,7 +13,7 @@ body {
 
 header {
     display: flex;
-    background: center no-repeat url(http://wordpress-221709-675449.cloudwaysapps.com/wp-content/uploads/2018/09/img-default2.jpg);
+    background: center no-repeat url(../images/img-default2.jpg);
     width: calc(100vw - 17px);
     height: 920px;
     align-items: center;
