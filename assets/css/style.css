@@ -1,0 +1,253 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", Arial, Tahoma, sans-serif;
+
+}
+
+
+header {
+    display: flex;
+    background: center no-repeat url(http://wordpress-221709-675449.cloudwaysapps.com/wp-content/uploads/2018/09/img-default2.jpg);
+    width: calc(100vw - 17px);
+    height: 920px;
+    align-items: center;
+    flex-direction: column;
+}
+
+header a img {
+    width: 300px;
+    margin-top: 50px;
+    padding: 40px;
+}
+
+.button {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bolder;
+    background-color: #f00;
+    padding: 20px;
+    border-radius: 30px;
+    margin-top: 100px;
+}
+
+.description_header {
+    color: #fff;
+    font-size: 45px;
+    font-weight: normal;
+    margin-top: 200px;
+}
+
+.title_container1 {
+    text-align: center;
+    margin-top: 70px;
+    color: #172c54;
+    font-size: 30px;
+}
+
+.container2 {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.container2 img {
+    margin-top: 20px;
+}
+
+.container2 p {
+    color: #626262;
+    font-weight: 450;
+}
+
+.items-container2 {
+    text-align: center;
+}
+
+h1 {
+    color: #172c54;
+}
+
+p {
+    margin-bottom: 45px;
+}
+
+.section2 h2 {
+    color: #fff;
+    font-size: 30px;
+    text-align: center;
+}
+
+.container3 h3 {
+    padding-top: 20px;
+    font-weight: 300;
+    font-size: 30px;
+    color: #172c54;
+    text-align: center;
+}
+
+.container3 {
+    margin: 0px 34px;
+    margin-top: 60px;
+    background-color: #fff;
+}
+
+.container3-box {
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container3-box1 {
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.section2 {
+    margin-top: 200px;
+    padding-top: 70px;
+    padding-bottom: 165px;
+    background-color: #172c54;
+}
+
+.container img {
+    align-self: center;
+}
+
+.container3-box p {
+    color: #626262;
+    text-align: center;
+    padding: 15px;
+}
+
+
+.container3 img {
+    width: 85px;
+    height: auto;
+    margin-top: 60px;
+}
+
+
+.box-box1,
+.box-box2 {
+    margin: 0px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.container3-box1 img {
+    margin: 0px 25px 50px 25px;
+    width: 225px;
+    height: 145.67px;
+
+}
+
+
+
+footer h1 {
+    text-align: center;
+    color: #f00;
+}
+
+.footer_form {
+    display: flex;
+    justify-content: center;
+}
+
+form {
+    width: 1168px;
+    height: 405px;
+}
+
+input,
+textarea {
+    margin: 10px;
+    font-family: "Montserrat", Arial, Tahoma, sans-serif;
+    font-size: 17px;
+    width: 357.594px;
+    padding: 10px;
+    border: 1px #cacaca solid;
+    outline: none;
+    resize: none;
+    border-radius: 10px;
+}
+
+#mit {
+    color: #fff;
+    font-weight: bolder;
+    background-color: #f00;
+    padding: 10px;
+    border-radius: 30px;
+    margin-top: 100px;
+}
+
+
+footer p {
+    text-align: center;
+}
+
+footer p a {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer p a:hover {
+    text-decoration: underline;
+    color: #172c54;
+}
+
+.we-accept-card {
+    display: flex;
+    justify-content: center;
+}
+
+#copyright {
+    display: flex;
+    align-items: flex-end;
+    margin: 20px 0px 0px;
+    padding: 50px 0px;
+    background-color: #ddd;
+}
+
+#copyright p {
+    color: #7a7a7a;
+    text-align: end;
+    margin: 0px;
+    margin-left: 35px;
+}
+
+@media (max-width:759px) {
+    footer {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #mit {
+        margin-top: 0px;
+    }
+
+    .footer_form {
+        margin-bottom: 100px;
+    }
+
+    #copyright {
+        padding-bottom: 10px;
+    }
+
+    #copyright p {
+        text-align: start;
+    }
+}
