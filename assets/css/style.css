@@ -14,7 +14,7 @@ body {
 header {
     display: flex;
     background: center no-repeat url(../images/img-default2.jpg);
-    width: calc(100vw - 17px);
+    width:100vw;
     height: 920px;
     align-items: center;
     flex-direction: column;
